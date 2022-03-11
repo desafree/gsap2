@@ -1,0 +1,22 @@
+body,html{width: 100%; height: 100%;}
+
+.container{height: 100%; display: flex; justify-content: center; align-items: center; background-color: black;}
+
+.box{width: 90px; height: 90px; border-radius: 20px; background-color: tomato; display: flex; align-items: center; justify-content: center; position: relative;}
+
+.line-vertical{width: 5px; height: 60%; border-radius: 2px; background-color: white; position: absolute;}
+.line-horizontal{height: 5px; width: 60%; border-radius: 2px; background-color: white; position: absolute;}
+
+svg{transform: rotate(-45deg);}
+
+.prova{height: 70px; width: 70px; border: 2.5px solid transparent; background-color: tomato; position: absolute; display: flex; align-items: center; justify-content: center; border-radius: 20px;}
+
+.arrow-1{left: 0; top: 50%;}
+.arrow-2{left: 0; top: 0;}
+.arrow-3{top: 50%; right: 3%;}
+.arrow-4{top: 0; left: 50%;}
+
+.arrow-1:hover{background-color: orange;}
+.arrow-2:hover{background-color: orange;}
+.arrow-3:hover{background-color: orange;}
+.arrow-4:hover{background-color: orange;}
